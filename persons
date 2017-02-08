@@ -1,0 +1,43 @@
+# Class for people with in the project
+# Will have subclasses for all other "types"
+# Put placeholders for inputs
+
+
+class Person(object):
+    """Person is a parent class for Teachers, Students, Guardians,
+        Authorized persons, and Counselors."""
+    def __init__(self, arg):
+        super(Persons, self).__init__()
+        self.firstname = input("First Name: ")
+        self.lastname = input("Last Name: ")
+        self.nickname = input("Nickname: ")
+        self.birthdate = input("Birthdate: ")
+        self.workphone = input("Workphone: ")
+        self.cellphone = input("Cellphone: ")
+        self.address = input("Address: ")
+
+# Create a sub class for a student
+
+
+class Student(Person):
+    """Students are a subclass of Person. Students are assigned to Pods.
+        Students are assigned: teachers, guardians, authorized persons,
+        counselors."""
+
+    def __init__(self, arg):
+        self.guardian = Person()
+        self.authorized1 = Person()
+        self.authorized2 = Person()
+        self.selectteacher = selectTeacher()
+
+
+# Create a sub class for a user/teacher
+
+
+class Teacher(Person):
+    """Teachers are a subclass of Person. Teachers are assigned to: Students.
+        Teachers are assigned Courses."""
+
+    def __init__(self, **kwargs):
+        self.site = siteselect()
+        self.course = courseselect()
