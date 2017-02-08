@@ -1,4 +1,4 @@
-Build a daycare software that can track attendence, and build profiles of children within the program.
+Build a daycare software that can track attendance, and build profiles of children within the program.
 The software should be able to process an application with roughly the following data:
 guardians names
 address
@@ -9,7 +9,7 @@ etc
 Student
 name
 nickname
-interestests
+interests
 address
 guardian
 school
@@ -24,7 +24,7 @@ health concerns / food allergies / family issues / mental health concerns
 emergency contact info
 medical release forms
 custody forms (if necessary)
-Should be associated with gaurdians and family
+Should be associated with guardians and family
 weight
 height
 physical description
