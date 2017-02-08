@@ -38,6 +38,17 @@ provide time fillers / games
 provide status updates on students
 provide interface for taking notes on students
 provide ability to make commendations / hand out demerits
-STAGE ONE WILL COVER ONLY APPLICATION PROCESS AND ATTENDANCE
+STAGE ONE: APPLICATION, ATTENDANCE, READ STUDENT RECORD
+  1) Build terminal program to intake new applicants.
+    import application.json to use as template for questions
+    create new file for each new applicant
+  1a) Add functionality for retrieving and viewing the student data
+  1b) Add counselor object
+  1c) Add functionality for dividing students into pods based on grade lvl assign counselor
+  1d) Create letters to applicants and their guardians with contracts to sign
+  1e) Add functionality to update the student files with signed contracts
+  2) build simple web form with all the placeholders for the other app
+  3) merge and debug
+  4) build
 STAGE TWO WILL BE BUILDING INTERNAL PROGRAM TO FACILITATE PHYSICAL ASSESSMENT FOR THE DEPARTMENT OF HEALTH AS WELL KEEP RECORDS, BUILD STATISTICAL ANALYSIS REPORTS
 STAGE THREE WILL BE IMPLEMENTING CURRICULUM AUTOMATION TO
