@@ -1,6 +1,7 @@
 # Program Instance
 # will need to write to JSON file
 from user_information import security
+import * from pytesseract
 
 class Program:
     def __init__(self):
@@ -10,8 +11,14 @@ class Program:
         print("Welcome to Community Care\n")
         security()
 
-class Menu():
-    self.options = ["HELP", "ADD_STUDENT", "DROP_STUDENT", "MAIN_MENU",
+    def process_attendance(self, attendance):
+        # After being processed using OCR, an image is parsed for its type  for
+
+
+
+
+    class Menu():
+        self.options = ["HELP", "ADD_STUDENT", "DROP_STUDENT", "MAIN_MENU",
                     "SEARCH"]
 
         # How do we handle the security piece?

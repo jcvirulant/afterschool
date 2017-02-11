@@ -37,6 +37,12 @@ class Student(Person):
         self.fitness_record = F_Record()
 
 
+    class A_Record():
+        # Lists of datetimes
+        self.absent_days = []
+        self.tardy_days = []
+        self.left_early_days = []
+
 
 class Authorized_Pickup(Person):
     """Authorized_Pickup a parent of Guardian, Student, Counselor. """
