@@ -38,6 +38,14 @@ provide time fillers / games
 provide status updates on students
 provide interface for taking notes on students
 provide ability to make commendations / hand out demerits
+
+Plan has become more refined by the MVP
+
+The MVP uses ocr to create and process a standardized paper system that can
+easily integrate with existing paper systems.
+
+Post Daily Report is the goal.
+
 STAGE ONE: APPLICATION, ATTENDANCE, READ STUDENT RECORD
   1) Build terminal program to intake new applicants.
     import application.json to use as template for questions
