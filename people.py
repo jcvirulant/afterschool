@@ -37,6 +37,7 @@ class Student(Person):
         self.fitness_record = F_Record()
 
 
+
 class Authorized_Pickup(Person):
     """Authorized_Pickup a parent of Guardian, Student, Counselor. """
 

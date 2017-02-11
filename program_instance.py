@@ -10,9 +10,14 @@ class Program:
         print("Welcome to Community Care\n")
         security()
 
-   
+class Menu():
+    self.options = ["HELP", "ADD_STUDENT", "DROP_STUDENT", "MAIN_MENU",
+                    "SEARCH"]
 
         # How do we handle the security piece?
+        # We will worry about this when we get to flask it will only the
+        # Site Captain can login for the MVP
+
         # login = input("Login: ")
         # if login in usernames:
         #     password = input("Password: ")
