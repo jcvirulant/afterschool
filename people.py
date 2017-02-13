@@ -11,11 +11,11 @@ class Person(object):
     Authorized persons, and Counselors."""
     def __init__(self, arg):
         super(Persons, self).__init__()
-        self.firstname = input("Enter {}'s First Name: ".format(self.str))
-        self.lastname = input("Enter {}'s Last Name: ")
-        self.address = input("Enter {}'s Address: ")
+        self.firstname = input("Enter {}'s First Name: ".format(self.type))
+        self.lastname = input("Enter {}'s Last Name: ".format(self.type))
+        self.address = input("Enter {}'s Address: ".format(self.type))
         self.birthdate = datetime.date(input("Enter {}'s Birthdate: "))
-        self.age = datetime.now()-self.birthdate
+        self.age = round(int(datetime.now()-self.birthdate))
 
 # Create a sub class for a student
 
@@ -36,13 +36,31 @@ class Student(Person):
         self.attendance_record = A_Record()
         self.fitness_record = F_Record()
 
+    def get_pickups(self):
+        print(authorized1)
 
     class A_Record():
+        """The A Record contains the attendance for a student and the functions
+            for processing statistical data."""
         # Lists of datetimes
         self.absent_days = []
         self.tardy_days = []
         self.left_early_days = []
 
+    class H_Record():
+        """Contains all of the student's fitness records and assesments,
+            nutrition records and assesments, health concerns etc.  It also
+            contains functions to add, pull records, show progress
+            over time.  It will also help to aggregate data on all the students
+            when we put everything in a database."""
+
+    class B_Record():
+        """The B Record contains behavioral data including the Dessa and
+            other assessments for measuring the social and behavioral
+            progress."""
+
+    class E_Record():
+        """The E or Education Record contains educational assessments """
 
 class Authorized_Pickup(Person):
     """Authorized_Pickup a parent of Guardian, Student, Counselor. """
@@ -50,6 +68,8 @@ class Authorized_Pickup(Person):
     def __init__(self, arg):
         self.phone_number = get_phone()
 
+    def __str__(self):
+        print(self.lname)
     def get_phone(self):
         # use regex to verify phone_number
         pass

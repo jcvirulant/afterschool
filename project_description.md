@@ -44,6 +44,8 @@ Plan has become more refined by the MVP
 The MVP uses ocr to create and process a standardized paper system that can
 easily integrate with existing paper systems.
 
+The documents will be translated into json.
+
 Post Daily Report is the goal.
 
 STAGE ONE: APPLICATION, ATTENDANCE, READ STUDENT RECORD

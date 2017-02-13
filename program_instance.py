@@ -3,6 +3,7 @@
 from user_information import security
 import * from pytesseract
 
+
 class Program:
     def __init__(self):
         self.setup()
@@ -12,17 +13,15 @@ class Program:
         security()
 
     def process_attendance(self, attendance):
+        pass
         # After being processed using OCR, an image is parsed for its type  for
-
-
-
 
     class Menu():
         self.options = ["HELP", "ADD_STUDENT", "DROP_STUDENT", "MAIN_MENU",
-                    "SEARCH"]
+                        "SEARCH"]
 
         # How do we handle the security piece?
-        # We will worry about this when we get to flask it will only the
+        # We will worry about this when we get to flask, only the
         # Site Captain can login for the MVP
 
         # login = input("Login: ")
