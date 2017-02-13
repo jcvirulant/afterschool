@@ -1,0 +1,28 @@
+{
+  "counselor": "Greg",
+  "pod": "3",
+  "description": "messin round, fell down and scraped knee",
+  "date": "1-20-2017",
+  "time": "datetime format",
+  "students":
+  [
+    {
+      "student id": "",
+      "student_firstname": "",
+      "student_lastname": "",
+      "involvement": "",
+      "guadian_signature":
+      {
+        "guardian_firstname": "",
+        "guardian_lastname": "",
+        "guardian_signature": "",
+      }
+  },
+  {
+    "student id": "",
+    "student_firstname": "",
+    "student_lastname": "",
+    "involvement": ""
+  }
+
+]

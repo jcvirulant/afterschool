@@ -17,6 +17,19 @@ class Person(object):
         self.birthdate = datetime.date(input("Enter {}'s Birthdate: "))
         self.age = round(int(datetime.now()-self.birthdate))
 
+    def object_decoder(obj):
+        if '__type__' in obj and obj['__type__'] == 'User':
+            return Student(
+                obj['lastname'],
+                obj['firstname'],
+                obj['middlename']
+                )
+
+        return obj
+
+    # json.loads('{"__type__": "Student", "lastname": "Smith",
+    # "firstname": "John"}', object_hook=object_decoder)
+
 # Create a sub class for a student
 
 

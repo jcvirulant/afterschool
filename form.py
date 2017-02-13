@@ -1,3 +1,4 @@
+import json
 
 
 class Form(object):
@@ -16,4 +17,4 @@ class Application(Form):
         self.form_type = 'app'
         # Get unique number... there is a special module for this.
         self.form_number = 0
-        self.child_name = [lname, fname, mname]
+        self.student_name = [lname, fname, mname]

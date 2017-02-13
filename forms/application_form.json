@@ -1,0 +1,77 @@
+# This is a json schema for the application form
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "Student",
+	"type": "object",
+  "description": "A Student that attends the program",
+	"properties": {
+		"firstName": {
+			"type": "string"
+		},
+		"lastName": {
+			"type": "string"
+		},
+		"age": {
+			"description": "Age in years",
+			"type": "integer",
+			"minimum": 0
+		}
+	},
+   "address": {
+     "streetAddress": {
+       "type": "string",
+     },
+     "city": {
+       "type": "string",
+     },
+     "state": {
+       "type": "string",
+     },
+     "postalCode": {
+       "type": "integer",
+     },
+   },
+   "phoneNumber":
+   [
+       {
+         "type": "home",
+         "number": "212 555-1234"
+       },
+         {
+           "type": "fax",
+           "number": "646 555-4567"
+         }
+     ],
+     "grade": "3",
+     "teacher": "Mr. Chris",
+     "primary_language": "Spanish",
+     "secondary_language": "English",
+     "ethnicity": "latino",
+     "sex": "male",
+     "guardian":
+     {
+       "firstName": "John",
+       "lastName": "Smith",
+       "age": 25,
+       "address":
+       {
+           "streetAddress": "231 E. 3nd Street",
+           "city": "Tulsa",
+           "state": "OK",
+           "postalCode": "74132"
+       },
+       "phoneNumber":
+       [
+           {
+             "type": "home",
+             "number": "212 555-1234"
+           },
+           {
+             "type": "fax",
+             "number": "646 555-4567"
+           }
+       ],
+     }
+
+
+ }

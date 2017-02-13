@@ -1,0 +1,59 @@
+# This is an example attendance sheet
+
+{
+  "counselor": "Greg",
+  "pod": "3",
+  "roster":
+  [
+    {
+      "student id": "",
+      "student_firstname": "",
+      "student_lastname": "",
+      "attended": "Y",
+      "snack": "Y",
+      "tardy": "N",
+    }
+    {
+      "student id": "",
+      "student_firstname": "",
+      "student_lastname": "",
+      "attended": "Y",
+      "snack": "Y",
+      "tardy": "N",
+    }
+    {
+      "student id": "",
+      "student_firstname": "",
+      "student_lastname": "",
+      "attended": "Y",
+      "snack": "Y",
+      "tardy": "N",
+    }
+    {
+      "student id": "",
+      "student_firstname": "",
+      "student_lastname": "",
+      "attended": "Y",
+      "snack": "Y",
+      "tardy": "N",
+    }
+    {
+      "student id": "",
+      "student_firstname": "",
+      "student_lastname": "",
+      "attended": "Y",
+      "snack": "Y",
+      "tardy": "N",
+    }
+    {
+      "student id": "",
+      "student_firstname": "",
+      "student_lastname": "",
+      "attended": "Y",
+      "snack": "Y",
+      "tardy": "N",
+    }
+  ]
+
+
+}
